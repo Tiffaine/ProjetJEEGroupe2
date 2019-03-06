@@ -1,6 +1,9 @@
 
 //Ajout de tables Chambres
 
+INSERT INTO Chambre(typeCHambre, nbPlaceLit, prixJournalier) VALUES
+		("Chambre Simple", 1, 50);
+
 INSERT INTO Chambre(typeChambre, nbPlaceLit, prixJournalier) VALUES
 		("Chambre Double", 2, 80);
 
